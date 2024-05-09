@@ -49,6 +49,17 @@ dados += "\n************************************************\n";
 return dados;
 
 }
+public void ganharJogo(){
+    this.setVitorias(this.getVitorias() + 1);
+}
+
+public void perderJogo(){
+    this.setDerrotas(this.getDerrotas() + 1);
+}
+public void empatarJogo(){
+    this.setEmpates(this.getEmpates() + 1);
+}
+
 
     public String getNome() {
         return nome;
